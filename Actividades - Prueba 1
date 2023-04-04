@@ -1,0 +1,38 @@
+Ejercicio 1 :
+-Al ingresar los datos mostrados nos retornara TRUE.
+-Al ingresar los datos mostrados nos retornara FALSE.
+-El bucle FOR solo leera 31 terminos del arreglo de 32 a eso se le denomina un error off-by-one.
+-Si a el bucle for lo ponemos como una funcion solo se necesitaria una prueba unitaria para que verifique que usa todos los datos ingresados.
+
+Ejercicio 2:
+Al cambiar de usar un mismo sofware para otro cohete se debio probar todas las entradas posibles es la mejor solución a este problema.
+Ejercicio 3:
+-Algún caso de prueba falla cuando se ejecuta en una implementación con errores.
+-Todos sus casos de prueba pasan cuando se ejecutan en una implementación legal.
+Ejercicio 4:
+
+
+Ejercicio 5:
+
+-La forma correcta seria la segunda ya que la primera comienza partidcionando a x menor a 0 lo cual en los parametros de la funcion especifica que deben ser numeros
+no negativos haciendo que la particion no sea legal , la tercera particion nos propone numeros especificos lo cual haria que la particion no sea completa.
+
+Ejercicio 6:
+-Si x es divisible entre y , y si y es divisible por x estos subconjuntos no serian disjuntos ya que si son ambos numeros son iguales entonces estarian en ambos subconjuntos
+mientras que si tomamos a todos los numeros menos a 0 , se cumpliria lo correcto completo y disjunto .
+Ejercicio 7:
+Particion :
+winsAndLosses = '/n'
+winsAndLosses = W || winsAndLosses = L
+winsAndLosses = WL || winsAndLosses = LW
+winsAndLosses = permut(W AND L,3)
+winsAndLosses = permut(W AND L,4)
+winsAndLosses = permut(W AND L,5)
+
+
+Ejercicio 8:
+
+Ejercicio 9:
+
+Ejercicio 10:
+
