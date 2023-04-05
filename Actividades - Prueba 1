@@ -1,22 +1,24 @@
 Ejercicio 1 :
--Al ingresar los datos mostrados nos retornara TRUE.
--Al ingresar los datos mostrados nos retornara FALSE.
+-Para el primer caso todos los valores son nos deberia retornara TRUE.
+-Para el segundo caso ya que los valores alternan entre true y false nos deberia retornar FALSE.
 -El bucle FOR solo leera 31 terminos del arreglo de 32 a eso se le denomina un error off-by-one.
--Si a el bucle for lo ponemos como una funcion solo se necesitaria una prueba unitaria para que verifique que usa todos los datos ingresados.
+-El numero de casos de prueba seria 2^32 ya que hay 32 elementos en ela rreglo y cada uno de ellos podria tener 2 valores true o false.
+Sin embargo realizar todas esas pruebas seria poco practico por ende podriamos reducir el numero de casos de forma que cubran la mayoria de combinaciones.
 
 Ejercicio 2:
 Al cambiar de usar un mismo sofware para otro cohete se debio probar todas las entradas posibles es la mejor solución a este problema.
 Ejercicio 3:
--Algún caso de prueba falla cuando se ejecuta en una implementación con errores.
--Todos sus casos de prueba pasan cuando se ejecutan en una implementación legal.
+-Todos sus casos de prueba pasan cuando se ejecutan en una implementación legal. Ya que si todas las pruebas pasan en una implementacion legal
+enotnces el riesgo de que fallen es minimo ya que cumplen con los criterios definidos.
 Ejercicio 4:
 
 
 Ejercicio 5:
-
--La forma correcta seria la segunda ya que la primera comienza partidcionando a x menor a 0 lo cual en los parametros de la funcion especifica que deben ser numeros
-no negativos haciendo que la particion no sea legal , la tercera particion nos propone numeros especificos lo cual haria que la particion no sea completa.
-
+-La primera particion es incorrecta ya que el subdminio x<0 no es valido
+-La forma correcta seria la segunda. Sus subdominios son disjuntos, estas completos ya que cualquier numero positivo podria
+pertenecer a estos subdominios y son correctos ya que en cada subdminio se puede realizar pruebas por ejemplo para para x es un cuadrado perfecto, 
+se podrían probar casos como x = 1, x = 4, x = 9. Y para x es > 0 pero no es un cuadrado perfecto se podrían probar casos como x = 2, x = 5, x = 7
+-la tercera particion es incorrecta ya que sus subdominios no son disjuntos.
 Ejercicio 6:
 -Si x es divisible entre y , y si y es divisible por x estos subconjuntos no serian disjuntos ya que si son ambos numeros son iguales entonces estarian en ambos subconjuntos
 mientras que si tomamos a todos los numeros menos a 0 , se cumpliria lo correcto completo y disjunto .
@@ -31,8 +33,15 @@ winsAndLosses = permut(W AND L,5)
 
 
 Ejercicio 8:
+- particion en a:0,1
+-particion en a: a es un enter no negativo diferente de 0 y 1 //incluye todos los elementos que no son 0 ni 1, positivo o negativo, puede ser grande o pequeño
+-particion en a: a es un entero negativo  
+
 
 Ejercicio 9:
+Se necesitaria 5 valores diferentes. para la primera particion 
+
 
 Ejercicio 10:
-
+Si analizamos la particion a.multiply(b) en ella se necesita probar los casos donde el producto sea igual a 0, postivo o negativo ,
+se obtiene 3 pruabas pero para cada una de ella podriamos probar las otras particiones los que nos daria 9 casos de prueba
